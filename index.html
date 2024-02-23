@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="logo">
+        <img src="./assets/svg/logo.svg" alt="" />
+      </nav>
+      <header>
+        <h1>Intrested in our buisness pricing?</h1>
+        <p>
+          Fill out the form view detailes and we'll
+          <span>contact you as soon as possible</span>
+        </p>
+      </header>
+      <main>
+        <form>
+          <div class="name-email">
+            <label for="name"
+              >Name
+              <br />
+              <input type="text" id="name" placeholder="Enter Your Name " />
+            </label>
+            <br />
+            <label for="email"
+              >Company Email
+              <br />
+              <input type="email" id="email" placeholder="Enter Your Email" />
+            </label>
+          </div>
+          <div class="company-size">
+            <label for="size"
+              >Company Size
+              <br />
+              <select name="size" id="size">
+                <option value="employess-size">50-100 employess</option>
+                <option value="employess-size">100-150 employess</option>
+                <option value="employess-size">200-250 employess</option>
+              </select>
+            </label>
+
+            <br />
+            <label for="subject"
+              >Subject
+              <br />
+              <select name="subject" id="subject">
+                <option value="landing-page">Building Landing Pages</option>
+                <option value="carer-page">Carrers Page</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label for="textinput" class="text-label"> Message </label>
+            <div>
+              <textarea name="textinput" id="textinput" cols="30" rows="10">
+    
+      50 to 100 employees
+          
+              </textarea>
+            </div>
+          </div>
+          <!-- <label for="submit">Message</label> -->
+          <br />
+          <div class="btn">
+            <button type="submit">Contact Sales</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
